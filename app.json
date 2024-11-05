@@ -19,7 +19,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.cozylibrary.app"
     },
     "web": {
       "bundler": "metro",
@@ -27,10 +28,13 @@
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
-      "expo-router"
-    ],
-    "experiments": {
-      "typedRoutes": true
-    }
+      "expo-router",
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow CozyLibrary to access your camera to scan book barcodes."
+        }
+      ]
+    ]
   }
 }

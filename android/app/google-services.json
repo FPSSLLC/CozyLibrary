@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "124744538070",
+    "project_id": "cozylibrary",
+    "storage_bucket": "cozylibrary.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:124744538070:android:afbb2a3e482f50c425f677",
+        "android_client_info": {
+          "package_name": "com.cozylibrary.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHjPnXg5T8EYiodWo_RahWaMn1fq1Lo-w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
